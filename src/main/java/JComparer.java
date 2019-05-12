@@ -15,4 +15,6 @@ class JComparer {
         return false;
     }
 
+//    public Boolean compareUsingInterface()
+
 }
