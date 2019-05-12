@@ -21,3 +21,14 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.idea/
+build.sbt
+project/build.properties
+project/target/config-classes/$22ac5bebd2c73cb76bbc.cache
+project/target/config-classes/$27a6047a6eec04e53d26.cache
+project/target/config-classes/$394daf4c9dfd0ce5fa1c.cache
+project/target/config-classes/$af4ff41cc70143064f23.cache
+project/target/scala-2.12/
+project/target/streams/
+src/
+target/
