@@ -8,3 +8,6 @@ libraryDependencies += "org.junit.jupiter" % "junit-jupiter-api" % "5.0.0-RC3" %
 libraryDependencies += "org.junit.vintage" % "junit-vintage-engine" % "4.12.0-RC3" % Test
 libraryDependencies += "org.junit.platform" % "junit-platform-runner" % "1.0.0-RC3" % Test
 libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % Test
+libraryDependencies += "org.specs2" %% "specs2-core" % "3.7.3" % "test"
+
+//scalacOptions in Test ++= Seq("-Yrangepos")

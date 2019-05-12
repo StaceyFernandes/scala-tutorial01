@@ -1,6 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
-class ComparerTest {
+class JComparerTest {
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
@@ -12,14 +12,14 @@ class ComparerTest {
 
     @org.junit.jupiter.api.Test
     void compareFirstNumberIsGreaterThanSecond() {
-        Integer firstNumber = 3;
-        Integer secondNumber = 2;
+            Integer firstNumber = 3;
+            Integer secondNumber = 2;
 
-        Comparer comparer = new Comparer();
-        Boolean actual = comparer.compare(firstNumber, secondNumber);
-        Boolean expected = true;
+            JComparer comparer = new JComparer();
+            Boolean actual = comparer.compare(firstNumber, secondNumber);
+            Boolean expected = true;
 
-        assertEquals(expected, actual);
+            assertEquals(expected, actual);
     }
 
     @org.junit.jupiter.api.Test
@@ -27,7 +27,7 @@ class ComparerTest {
         Integer firstNumber = 1;
         Integer secondNumber = 2;
 
-        Comparer comparer = new Comparer();
+        JComparer comparer = new JComparer();
         Boolean actual = comparer.compare(firstNumber, secondNumber);
         Boolean expected = false;
 
