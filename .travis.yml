@@ -4,5 +4,3 @@ matrix:
       scala:
         - 2.12.8
     - language: java
-      jdk:
-        - oraclejdk8
