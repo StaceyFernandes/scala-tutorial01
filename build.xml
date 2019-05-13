@@ -7,7 +7,7 @@
   <!-- 
   <property name="skip.tests" value="true"/>
    -->
-  <property name="test" value="test"/>
+  <property name="test" value="src/test/java"/>
   
   <!-- Compiler options -->
   
