@@ -3,7 +3,7 @@ import java.lang.reflect.Array;
 /**
  * Checks if the first number is greater than the second and return true.
  */
-class JComparer {
+class JComparer implements JComparerTrait {
 
     /**
      * @param num1
