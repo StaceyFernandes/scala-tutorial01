@@ -3,4 +3,3 @@ matrix:
     - language: scala
       scala:
         - 2.12.8
-    - language: java
