@@ -1,15 +1,15 @@
 import org.specs2.mutable.Specification
 
-class ComparerTest extends Specification {
+class IntComparerTest extends Specification {
 
   "compareFirstNumberIsGreaterThanSecond" should {
     "return true" in {
-      new Comparer().compare(3, 2) == true
+      new IntComparer().compare(3, 2) == true
     }
   }
   "compareFirstNumberIsLessThanSecond" should {
     "return false" in {
-      new Comparer().compare(2, 2) == false
+      new IntComparer().compare(2, 2) == false
     }
   }
 }

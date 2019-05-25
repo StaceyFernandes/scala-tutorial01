@@ -1,4 +1,3 @@
 trait ComparerTrait[T] {
-  def compare(num1: T, num2: T): Boolean
-
+  def compare(val1: T, val2: T): Boolean
 }
