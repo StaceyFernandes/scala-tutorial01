@@ -6,9 +6,9 @@ object CaseCatTest extends Specification {
 
   "getAge" should {
     "return cats age" in {
-      val cat = CaseCat("Pino", "smallCat", LocalDateTime.of(2014, 1, 1, 1, 1, 1), "big")
-      val cat2 = CaseCat.apply("Small", "small", LocalDateTime.of(2000, 1, 1, 1, 1, 1), "small")
-      val cat2grown = cat2.copy("Big", "small", LocalDateTime.of(2000, 1, 1, 1, 1, 1), "medium")
+      val cat = CaseCat("Pino", "smallCat", LocalDateTime.of(2014, 1, 1, 1, 1, 1), new Big)
+      val cat2 = CaseCat.apply("Small", "small", LocalDateTime.of(2000, 1, 1, 1, 1, 1), new Small)
+      val cat2grown = cat2.copy("Big", "small", LocalDateTime.of(2000, 1, 1, 1, 1, 1), new Medium)
 
       cat.getAge(LocalDateTime.of(2019, Month.JANUARY, 25, 6, 30)) must equalTo(5)
       cat2.size must equalTo("small")
